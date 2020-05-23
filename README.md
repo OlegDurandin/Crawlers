@@ -4,7 +4,8 @@ Series of scripts to crawl different sites.
 List of sites:
 
 * panorama.pub
-* anekdot.ru
+* https://www.anekdot.ru/
+* https://killpls.me/
 * ficbook.net
 * fontanka.ru
 
