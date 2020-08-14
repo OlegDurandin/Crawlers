@@ -39,7 +39,7 @@ def parsing_by_date(driver, date_url_format):
 def parse_one_anecdote(anecdote_element):
     res = {}
     try:
-        res['id'] = anecdote_element.get_attribute('id')
+        res['id'] = anecdote_element.get_attribute('data-id')
         res['text'] = anecdote_element.find_element_by_class_name('text').text
     except NoSuchElementException:
         return None
